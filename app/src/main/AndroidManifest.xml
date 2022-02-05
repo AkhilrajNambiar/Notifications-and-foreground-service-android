@@ -10,6 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ServiceDemo">
+        <receiver
+            android:name=".MyReceiver"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
